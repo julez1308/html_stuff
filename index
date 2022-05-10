@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Julian Schneider</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+<body>
+<div class="website">
+	
+<div class="container">
+<h1 class="name">
+js
+</h1>
+<div class="navigation">
+		<div class="nav-item"><a href="#">Home</a></div>
+		<div class="nav-item"><a href="#">Leistungen </a></div>
+		<div class="nav-item"><a href="#">Kontakt</a></div>
+</div>
+<div class="text">
+	<h2>Hallo ich bin eine Überschrift</h2>
+	<p class="text-p">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+
+		Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet.</p>
+</div>
+</div>
+</div>
+</body>
+</html>
