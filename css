@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	background: #232323;
+overflow: hidden;}
+
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/open-sans-v28-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./fonts/open-sans-v28-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/open-sans-v28-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/open-sans-v28-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/open-sans-v28-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/open-sans-v28-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+.website {
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	background: white;
+	margin: auto;
+	margin-top: calc(50vh - 100px);
+	transition: 0.5s;
+}
+
+.container {
+	margin-left: 45%;
+	padding-top: 50px;
+}
+
+.name {
+	font-family: 'Open Sans';
+}
+
+.website:hover {
+	width: 95%;
+	height: 95%;
+	margin: auto;
+	margin-top: 1%;
+	border-radius: 20px;
+}
+
+.website:hover > .container{
+margin-left: 5%;
+}
+
+.navigation {
+	opacity: 0%;
+}
+
+.website:hover .navigation {
+width: 60%;
+height: 50px;
+margin-left: 20%;
+margin-top: -70px;
+display: inline-block;
+opacity: 100%;
+transition: 1s;
+}
+
+.nav-item {
+	display:inline-block;
+	margin-left: 20%;
+	font-size: 20px;
+	font-weight: 200;
+	font-family: 'Open Sans';
+	text-decoration: underline;
+}
+
+.text {
+	opacity: 0;
+}
+
+.website:hover .text {
+	opacity: 100%;
+}
+h2 {
+	text-align: center;
+	font-family: 'Open Sans';
+}
+.text-p {
+	font-family: 'Open Sans';
+	column-gap: 10px;
+	column-count: 3;
+}
